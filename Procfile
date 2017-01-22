@@ -1,1 +1,1 @@
-web: gunicorn helloapp.wsgi --log-file -
+web: gunicorn django_hello.wsgi --log-file -
